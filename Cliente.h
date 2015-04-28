@@ -1,12 +1,15 @@
 #include<string>
 using std::string;
 
-Class Cliente{
+class Cliente{
 public:
 	Cliente();
-	void CadastraCliente();
-	void Logar();
-	void AlteraLogin();
+	Cliente(string & , string & );
+	Cliente(const Cliente &);
+	
+	void cadastraCliente();
+	void logar(const Cliente & , string & , string & );
+	void alteraLogin();
 private:
 	string nome,cpf,login,senha,email;
 	int idade;
