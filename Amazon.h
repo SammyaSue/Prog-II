@@ -1,7 +1,7 @@
 #include<string>
 using std::string;
 
-Class Amazon{
+class Amazon{
 
 public:
 	Amazon();

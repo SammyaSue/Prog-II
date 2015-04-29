@@ -2,10 +2,10 @@
 #include<string>
 using std::string;
 
-Class LivroFisico: public Livro{
+class LivroFisico: public Livro{
 public:
 	LivroFisico();
-	float CalculaFrete(float );
+	float calculaFrete(float );
 private:
 	string capa, tipo;
 	float peso;

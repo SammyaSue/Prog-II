@@ -1,11 +1,11 @@
 #include<string>
 using std::string;
 
-Class Livro{
+class Livro{
 public:
 	Livro();
-	void CadastraLivro();
-	void AlteraPreco();
+	void cadastraLivro();
+	void alteraPreco();
 private:
 	string nome,genero,idioma;
 	float preco;

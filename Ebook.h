@@ -2,7 +2,7 @@
 #include<string>
 using std::string;
 
-Class Ebook: public Livro{
+class Ebook: public Livro{
 public:
 	Ebook();
 private:
