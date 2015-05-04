@@ -1,4 +1,5 @@
 #include<string>
+#include"Data.h"
 using std::string;
 
 class Cliente{
@@ -11,7 +12,11 @@ public:
 	void logar(const Cliente & , string & , string & );
 	void alteraLogin();
 private:
-	string nome,cpf,login,senha,email;
+	string nome,login,senha,email;
 	int idade;
+	const string cpf;
+	static int nClientes;
+	const static int tamanhoSenha=20;
+	const Data dataCadastroCliente;
 	
 };
