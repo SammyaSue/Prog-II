@@ -1,3 +1,5 @@
+#ifndef CLIENTE_H
+#define CLIENTE_H
 #include<string>
 #include"Data.h"
 using std::string;
@@ -16,7 +18,10 @@ private:
 	int idade;
 	const string cpf;
 	static int nClientes;
-	const static int tamanhoSenha=20;
+	const static int tamSenhaMin=6;
+	const static int tamSenhaMax=20;
 	const Data dataCadastroCliente;
 	
 };
+
+#endif
