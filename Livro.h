@@ -1,3 +1,4 @@
+#include "Produto.h"
 #include<string>
 using std::string;
 
