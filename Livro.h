@@ -1,7 +1,7 @@
 #include<string>
 using std::string;
 
-class Livro{
+class Livro: public Produto{
 public:
 	Livro();
 	void cadastraLivro();
